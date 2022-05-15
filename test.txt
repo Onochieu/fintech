@@ -40,4 +40,6 @@ Steps :
    27  cat test.txt
    28  
    29  git commit -a -m "Added new text the files"
-   30  history 
+We have deleted abd added this new line of rubbish
+ We can colour code THE DIFFERENCES with this awesome code below
+						[ec2-user@ip-172-31-42-222 fintech]$ git diff --color-words
