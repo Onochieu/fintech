@@ -42,5 +42,4 @@ Steps :
    29  git commit -a -m "Added new text the files"
 We have deleted abd added this new line of rubbish
  We can colour code THE DIFFERENCES with this awesome code below
-
-
+						[ec2-user@ip-172-31-42-222 fintech]$ git diff --color-words
