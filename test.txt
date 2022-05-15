@@ -8,4 +8,36 @@ Steps :
 5. add the file to the staging environment: git add testfile.txt
 6. commit the current file to the local repository : git commit -m "Create a testfile in git"
 7: check status :git status ;and maybe the log of activities: git log
- you can add multiple file to the staging directory (just like step 5 : git add . 
+ you can add multiple file to the staging directory (just like step 5 : git add .
+
+
+    1  mkdir fintech
+    2  cd fintech
+    3  sudo yum install git
+    4  git config --global user.name "Acada Learning"
+    5  git config --global user.email "info@acadaLearning.com"
+    6  git config user.name; git config user.email
+    7  git init
+    8  git status
+    9  git add test.txt
+   10  touch test.txt
+   11  touch test{1..5}.txt
+   12  ll
+   13  git add test.txt
+   14  ll
+   15  git status
+   16  git commit -m "Create a testfile in git"
+   17  git status
+   18  git add  test1.txt
+   19  git status
+   20  git commit -m "Create a test1 file in git"
+   21  git status
+   22  git add .
+   23  git status
+   24  git commit -m "Added the remaining files"
+   25  vi test.txt
+   26  git status
+   27  cat test.txt
+   28  
+   29  git commit -a -m "Added new text the files"
+   30  history 
