@@ -1,0 +1,11 @@
+Steps :
+1 : mkdir and cd 
+
+2. Config control to see who (maybe developer) is developing codes and when by  git config --global user.name "Acada Learning"
+    git config --global user.email "info@AcadaLearning.com"
+3. Initiate te git :git init
+4 :touch a file
+5. add the file to the staging environment: git add testfile.txt
+6. commit the current file to the local repository : git commit -m "Create a testfile in git"
+7: check status :git status ;and maybe the log of activities: git log
+ you can add multiple file to the staging directory (just like step 5 : git add . 
